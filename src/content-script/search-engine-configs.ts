@@ -19,6 +19,12 @@ export const config: Record<string, SearchEngine> = {
     sidebarContainerQuery: ['div[class="metatable"]'],
     appendContainerQuery: [],
   },
+  ar5iv: {
+    inputQuery: ["input[name='query']"],
+    bodyQuery: ['div[class="ltx_page_main"]'],
+    sidebarContainerQuery: ['div[class="ltx_page_content"]'],
+    appendContainerQuery: [],
+  },
   biorxiv: {
     inputQuery: ["input[name='query']"],
     bodyQuery: ['div[class="inside"]'],

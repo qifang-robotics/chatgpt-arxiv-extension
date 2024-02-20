@@ -86,7 +86,7 @@ async function run() {
     console.debug('bodyElement', bodyElement)
 
     if (bodyElement && bodyElement.textContent) {
-      const bodyInnerText = bodyElement.textContent.trim().replace(/\s+/g, ' ').substring(0, 1500)
+      const bodyInnerText = bodyElement.textContent.trim().replace(/\s+/g, ' ').substring(0, 25000)
       console.log('Body: ' + bodyInnerText)
       const userConfig = await getUserConfig()
 
